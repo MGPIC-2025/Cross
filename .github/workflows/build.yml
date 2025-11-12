@@ -44,7 +44,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: windows-release
-          path: release/*.exe
+          path: release/Copper Puppetry*.exe
           if-no-files-found: warn
           
   build-macos:
@@ -79,7 +79,6 @@ jobs:
           path: |
             release/*.dmg
             release/*.zip
-            release/*.blockmap
           if-no-files-found: warn
           
   build-linux:
