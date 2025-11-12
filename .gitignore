@@ -1,0 +1,33 @@
+# Dependencies
+node_modules/
+
+# Build output
+release/
+out/
+
+# Electron
+dist-electron/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temporary files
+*.tmp
+*.temp
+
